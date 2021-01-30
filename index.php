@@ -16,11 +16,21 @@
     <!-- Insertion du header -->
     <?php include '_header.php'; ?>
 
-    <section>
+    <section class="disk_container">
 
-        test
 
-        </article>
+        <img src="images/disk_tron.png" class="disk" id="rotating">
+        <div class="cadre_presentation">
+
+            <h1 class="nom_prenom">
+                Yanis Dumont
+            </h1>
+            <h2 class="sous_titre">
+                Développeur Web
+            </h2>
+        </div>
+
+
 
     </section>
 

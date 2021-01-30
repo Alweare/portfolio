@@ -34,15 +34,5 @@
             </li>
         </ul>
     </nav>
-    <img src="images/disk_tron.png" class="disk" id="rotating">
-    <div class="cadre_presentation">
-
-        <h1 class="nom_prenom">
-            Yanis Dumont
-        </h1>
-        <h2 class="sous_titre">
-            Développeur Web
-        </h2>
-    </div>
     <!-- <img src="images/yanis.jpg" class="photo_header"> -->
 </header>
