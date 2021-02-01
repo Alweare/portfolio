@@ -11,28 +11,29 @@
 	<header>
 		<h1 class="flottant">Yanis Dumont</h1>
 		<p>
-			<a href="images/photo_yanis.jpg"><img src="images/mini_yanis.jpg" alt="Yanis Renard Dumont" id="photocv"></a>
+			<img src="images/mini_yanis.jpg" alt="Yanis Renard Dumont">
 		</p>
 	</header>
 	<section>
-		<div class="bloc_page">
+		<div class="experience">
 
 			<ul>
 				<h2> Mon expérience</h2>
-				<li><span>Responsable Magasin Naturalia</span> - Juin 2016 à Décembre 2019</li>
-				<li><span>Responsable Adjoint Naturalia</span> - Aout 2016 à Juin 2016</li>
-				<li><span>Employé libre service Monop' Parmentier</span> - Juillet 2015 à Aout 2015</li>
+				<li>Responsable Magasin Naturalia - Juin 2016 à Décembre 2019</li>
+				<li>Responsable Adjoint Naturalia - Aout 2016 à Juin 2016</li>
+				<li>Employé libre service Monop' Parmentier - Juillet 2015 à Aout 2015</li>
 
 			</ul>
-
-
+		</div>
+		<div class="skill">
 			<ul>
 				<h2> Mes Compétences</h2>
 				<li>Création site WordPress</li>
 				<li>Création site Html/CSS </li>
 				<li>Coder PHP/ symfony</li>
 			</ul>
-
+		</div>
+		<div class="formation">
 			<ul>
 				<h2> Ma Formation</h2>
 				<li>Formation Prep'Fullstack Openclassrooms</li>

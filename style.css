@@ -1,15 +1,22 @@
 /* menu de navigation top bar */
 header {
 	position: fixed;
+	margin-left: 2vw;
+	margin-top: 20vh;
+	z-index: auto;
 }
 .disk_container {
 	position: relative;
 	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
+	pointer-events: none;
 }
 .menu_top {
-	background-color: #2e282a;
+	background-color: #040505;
+	border-radius: 60px;
+	border: solid #04f5f5 3px;
+	height: 575px;
 }
 .menu_top li {
 	margin-bottom: 30px;
@@ -22,6 +29,7 @@ header {
 
 	position: absolute;
 }
+/* Rotation du disque Light Disk. Application d'une translation pour qu'il reste en place( sur le même axe). */
 @-webkit-keyframes rotating /* Safari and Chrome */ {
 	from {
 		-webkit-transform: translate(-50%, -50%) rotate(0deg);
@@ -51,17 +59,26 @@ header {
 	}
 }
 #rotating {
-	-webkit-animation: rotating 2s linear infinite;
-	-moz-animation: rotating 2s linear infinite;
-	-ms-animation: rotating 2s linear infinite;
-	-o-animation: rotating 2s linear infinite;
-	animation: rotating 2s linear infinite;
+	-webkit-animation: rotating 6s linear infinite;
+	-moz-animation: rotating 6s linear infinite;
+	-ms-animation: rotating 6s linear infinite;
+	-o-animation: rotating 6s linear infinite;
+	animation: rotating 6s linear infinite;
 }
-.fa-user-ninja,
-.fa-home,
-.fa-folder,
-.fa-phone {
+
+.fas,
+.far {
 	font-size: 50px;
+	margin-top: 4px;
+	color: #04f5f5;
+}
+.fa-folder {
+	margin-left: 3px;
+}
+.fa-file {
+	margin-left: 10px;
+	font-size: 50px;
+	color: #04f5f5;
 }
 .photo_header {
 	position: absolute;
@@ -73,21 +90,24 @@ ul {
 	padding: 0;
 }
 body {
-	background-color: #2e282a;
+	/* background-color: #5a5a5a; */
+
+	background-image: url(images/cropped_fond_synth.jpg);
+	margin: 0;
 }
 .nom_prenom {
 	text-align: center;
 	font-size: 4em;
 	font-family: "Press Start 2P", cursive;
 	position: relative;
-	color: white;
+	color: #f99c07;
 }
 .sous_titre {
 	text-align: center;
 	font-size: 2em;
 	font-family: "Press Start 2P", cursive;
 	position: relative;
-	color: white;
+	color: #ff6100;
 }
 .cadre_presentation {
 	top: 50%;
@@ -99,7 +119,24 @@ body {
 /* style du footer  */
 .fab {
 	font-size: 50px;
+	margin-left: 5px;
+	color: #04f5f5;
 }
-body {
-	margin: 0;
+.background_container {
+	display: flex;
+	position: fixed;
+	flex-flow: wrap;
+}
+
+/* 
+Page curriculum  */
+.experience {
+	position: absolute;
+	display: block;
+	height: 102px;
+	width: 200px;
+	background-color: white;
+	text-align: center;
+	top: 30%;
+	left: 20%;
 }

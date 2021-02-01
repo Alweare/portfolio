@@ -3,19 +3,19 @@
     <nav>
         <ul class="menu_top">
             <li>
-                <a href="index.php"><i class="fas fa-home"></i></a>
+                <a href="index.php"><i class="fas fa-globe"></i></a>
 
             </li>
             <li>
-                <a href="curriculum.php"><i class="fas fa-user-ninja"></i></a>
+                <a href="curriculum.php"><i class="far fa-file"></i></a>
 
             </li>
             <li>
-                <a href="projet.php"><i class="fas fa-folder"></i></a>
+                <a href="projet.php"><i class="far fa-folder"></i></a>
 
             </li>
             <li>
-                <a href="#"><i class="fas fa-phone"></i></a>
+                <a href="#"><i class="far fa-envelope"></i></a>
             </li>
             <li>
                 <a href="https://www.linkedin.com/in/yanis-dumont/"><i class="fab fa-linkedin"></i></a>
@@ -34,5 +34,5 @@
             </li>
         </ul>
     </nav>
-    <!-- <img src="images/yanis.jpg" class="photo_header"> -->
+
 </header>
