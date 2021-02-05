@@ -24,15 +24,26 @@
     </div>
     <div id="liste_projet">
         <div class="projet">
-            <img src="images/chaletetcaviar.png" alt="projet_chalet_et_caviar" />
+            <a href="http://www.chaletsetcaviar.alweare.fr/">
+                <div class="nom_projet">
+                    Projet Worpdress
+                </div>
+                <img src="images/chaletetcaviar.png" alt="projet_chalet_et_caviar" class="screen_projet" />
+            </a>
 
 
         </div>
         <div class="projet">
-            <img src="images/chaletetcaviar.png" alt="projet_chalet_et_caviar" />
+            <a href="http://alweare.fr/gbaf/">
+                <div class="nom_projet">
+                    Projet from scratch
+                </div>
+                <img src="images/gbaf.png" alt="projet_gbaf" class="screen_projet" />
+            </a>
 
 
         </div>
+
     </div>
 
 

@@ -148,3 +148,40 @@ Page curriculum  */
 	position: relative;
 	color: #f99c07;
 }
+#liste_projet {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	height: 200px;
+	width: 700px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	position: absolute;
+}
+.projet {
+	margin-left: 30px;
+	background-color: #1c0625;
+	border: #04f5f5 solid 4px;
+	border-radius: 70px 70px 0px 0px;
+	overflow: hidden;
+}
+.screen_projet {
+	max-width: 100%;
+	height: 100%;
+}
+.nom_projet {
+	text-align: center;
+	font-size: 0.9em;
+	margin: 20px 20px 20px 20px;
+	font-family: "Press Start 2P", cursive;
+	color: #ff6100;
+}
+a {
+	text-decoration: none;
+}
+.cv {
+	margin-left: 30%;
+	border-radius: 100px;
+}

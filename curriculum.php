@@ -8,7 +8,11 @@
 </head>
 
 <body>
-	<header>
+
+	<div class="nom_prenom">En construction</div>
+	<img src="images/cv_yanis.jpg" class="cv">
+
+	<!-- <header>
 		<h1 class="flottant">Yanis Dumont</h1>
 		<p>
 			<img src="images/mini_yanis.jpg" alt="Yanis Renard Dumont">
@@ -44,7 +48,7 @@
 		</div>
 
 
-	</section>
+	</section> -->
 </body>
 
 </html>
