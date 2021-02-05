@@ -140,3 +140,11 @@ Page curriculum  */
 	top: 30%;
 	left: 20%;
 }
+/*page projet*/
+.titre_projet {
+	margin-top: -40%;
+	font-size: 4em;
+	font-family: "Press Start 2P", cursive;
+	position: relative;
+	color: #f99c07;
+}
